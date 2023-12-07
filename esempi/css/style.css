@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset */
+
+main {
+    padding: 2em;
+
+    margin-bottom: 9em;
+
+    border: 1px red solid;
+}
+
+
+img:first-of-type {
+    float: left;
+}
+
+
+p {
+    padding-left: 16px;
+    text-align: justify;
+}
+
+section {
+    margin-bottom: 200px;
+}
+
+#rafa {
+    width: 100px;
+    float: right;
+    margin: 1em;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+
+    float: right;
+
+    background-color: red;
+}
+
+
+
+
+.nadal-text {
+    border: solid 1px red;
+}
+
+p.no-float {
+    /* la proprietà clear garantisce che non ci siano elementi flottanti
+    nella direzione indicata
+    */
+}
+
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.clear {
+    clear: both;
+}
+
